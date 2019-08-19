@@ -1,0 +1,95 @@
+section{
+    color: floralwhite;
+    font-family: FONTSPRING D...;
+}
+.mySlides {
+    display:none;
+    width: 80%;
+}
+.w3-left, .w3-right, .w3-badge {
+    cursor:pointer;
+    
+}
+.w3-badge {
+    height:5px;
+    width:5px;
+    padding:0;
+}
+section #right{
+    width: 60%;
+    
+    float: left;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+section #data{
+    width: 20%;
+    float: left;
+    font-size: 30px;
+    margin-top: 300px;
+    
+}
+
+
+section #nextlink{
+    width: 30%;
+    float: right;
+    margin-top: 172px;
+    margin-left: 50px;
+}
+@media only screen and (max-width:960px){
+    section #left{
+        width:5%;
+    }
+    section #right{
+        width:60%;
+    }
+    section #data{
+        width:20%;
+    }
+    section #nextlink{
+    width: 40%;
+    float: right;
+    margin-top: 290px;
+    }
+}
+@media only screen and (max-width:737px){
+    section #left{
+        width:1%;
+    }
+    section #right{
+        width:70%;
+    }
+    section #data{
+        width:60%;
+        margin-top:100px;
+        margin-left:100px;
+        margin-right:auto;
+    }
+    section #nextlink{
+    width: 50%;
+    float: right;
+    margin-top: 290px;
+    }
+}
+@media only screen and (max-width:500px){
+    section #left{
+        width:100%;
+
+    }
+    section #icons{
+        margin-top:0;
+    }
+    section #right{
+        width:90%;
+        margin-top:-60px;
+        float:left;
+        
+    }
+    section #nextlink{
+    width: 50%;
+    float: left;
+    margin-top: 290px;
+    margin-left:15px;
+    }
+}

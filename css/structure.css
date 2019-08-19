@@ -1,0 +1,44 @@
+
+section{
+    color: floralwhite;
+    font-family: FONTSPRING D...;
+}
+section #right{
+    width: 70%;
+    
+    float: left;
+    
+    margin-left: 80px;
+    
+}
+section #right img{
+    
+}
+img.responsive{
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* media queries */
+@media only screen and (max-width:960px){
+    
+    img.responsive{
+        width:70%;
+    }
+}
+@media only screen and (max-width:500px){
+    section #left{
+        width:100%;
+
+    }
+    section #icons{
+        margin-top:0;
+    }
+    section #right{
+        width:90%;
+        margin-top:-60px;
+        
+    }
+}

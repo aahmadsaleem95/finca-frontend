@@ -1,0 +1,52 @@
+section #right{
+    width: 50%;
+    color: floralwhite;
+    font-family: FONTSPRING D...;
+    float: left;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+p{
+    font-size: 14px;
+}
+h3{
+    font-size: 21px;
+}
+section #info li h6{
+    margin-top: 80px;
+    font-size: 21px;
+}
+section #photo{
+    width: 30%;
+    float: left;
+    margin-top: 118px;
+}
+/* Media Queries */
+@media only screen and (max-width:960px){
+    section #left{
+        width:5%;
+    }
+    section #right{
+        width:30%;
+    }
+    section #photo{
+        width:20%;
+    }
+}
+@media only screen and (max-width:530px){
+    section #left{
+        width:100%;
+
+    }
+    section #icons{
+        margin-top:0;
+    }
+    section #right{
+        width:80%;
+        margin-top:0;
+    }
+    section #photo{
+        width:100%;
+    }
+}

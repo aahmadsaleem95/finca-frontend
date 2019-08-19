@@ -1,0 +1,76 @@
+body, html {
+  height: 100%;
+}
+
+ .container { 
+/*  The image used*/
+  background-image: url(../images/HOME-PAGE-1.png);
+
+/*  Full height*/
+  height: 100%; 
+  
+
+/*  Center and scale the image nicely*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+} 
+
+.wrapper{
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+
+header h1{
+    margin-left: -28px;
+    
+    padding: 10px 0;
+    text-indent: -10000px;
+    background: url(../images/logo.png) no-repeat;
+    height: 72px;
+    width: 240px;
+    float: left;
+}
+
+header nav{
+    float: right;
+}
+
+header:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+button{
+    background: #164998;
+}
+
+
+#current{
+    color: #1abb9c;
+}
+section #left{
+    width: 20%;
+}
+
+section #icons{
+    margin-top: 200px;
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    
+}
+section #icons li{
+    padding: 10px 0;
+}
+
+
+footer{
+    background-color: #ffffff;
+    height: 60px;
+}
+/* Media queries */

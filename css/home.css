@@ -1,0 +1,48 @@
+#Bold{
+    font-size: 99px;
+}
+
+
+
+section #info{
+    margin-top: 140px;
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+}
+section #info li{
+    color: floralwhite;
+    font-family: FONTSPRING D...;
+    
+}
+
+section #info li h6{
+    margin-top: 80px;
+    font-size: 21px;
+}
+
+section #right{
+    width: 80%;
+}
+
+/* Media queries */
+@media only screen and (max-width: 1030px){
+  section #left{
+    width=5%;
+
+  }
+  
+  #Bold{
+    font-size:50px;
+  }
+  section #right{
+    
+    width=95%;
+  }
+}
+@media only screen and (max-width: 595px){
+    section #icons{
+    margin-top:50px;
+  }
+  
+}
